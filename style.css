@@ -1,0 +1,34 @@
+/* Sidebar
+----------------------------------------------------------------------------*/
+.sidenav {
+    height: 100%;
+    width: 15%;/* 160px; */
+    position: fixed;
+    background-color: black;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 2%;
+}
+/* Main
+-----------------------------------------------------------------------------*/
+.main{
+	text-align: center;
+	padding-bottom: 5em;
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	margin: auto; /* -4em auto 0; /* auto; */
+	min-width: 960px;
+	max-width: 9000px;
+	height: 4em;
+	text-align: center;
+	background-color: #44568a;
+	position: fixed; /*relative; /* absolute; */
+	padding: 1em 0 0 1em;
+	bottom: 0;
+    left: 0;
+    right: 0;
+}
